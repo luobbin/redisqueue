@@ -38,13 +38,13 @@ versioning. So please make sure to initialize a Go module before installing
 
 ```sh
 go mod init github.com/my/repo
-go get github.com/robinjoseph08/redisqueue/v2
+go get -u github.com/luobbin/redisqueue
 ```
 
 Import:
 
 ```go
-import "github.com/robinjoseph08/redisqueue/v2"
+import "github.com/luobbin/redisqueue"
 ```
 
 ## Example
@@ -57,7 +57,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/robinjoseph08/redisqueue/v2"
+	"github.com/luobbin/redisqueue"
 )
 
 func main() {
@@ -96,7 +96,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/robinjoseph08/redisqueue/v2"
+	"github.com/luobbin/redisqueue"
 )
 
 func main() {
